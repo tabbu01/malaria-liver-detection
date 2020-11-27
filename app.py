@@ -27,7 +27,7 @@ import tensorflow as tf
 app=Flask(__name__,template_folder='template')
 
 
-app.config["SERVER_NAME"]='192.168.0.106:1000'
+app.config["SERVER_NAME"]='192.168.0.106:3000'
 
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 
